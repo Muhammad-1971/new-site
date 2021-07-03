@@ -16,7 +16,12 @@ header{
   width: 100vw;
   background-color: greenyellow;
 }
-.nav-mid{
-  
+nav{
+  display: r;
+}
+.nav-mid ul{
+  display: flex;
+  list-style: none;
+  text-align: center;
 }
 
