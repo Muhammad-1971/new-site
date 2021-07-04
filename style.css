@@ -75,6 +75,10 @@ button:active{
   margin-bottom: 10%;
  
 }
+.midd .ll{
+  margin-left: 140%;
+  margin-top: -600%;
+}
 .left{
   width: 10%;
   height: 100vh;
