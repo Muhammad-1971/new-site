@@ -47,6 +47,16 @@ nav{
 .icon,.btn{
   margin: 3%;
 }
+button{
+  padding: 7px 10px;
+  border-style: none;
+  border-radius: 15px;
+  box-shadow: 2px 1px 1px rgb(5, 225, 233),
+              -2px -1px 1px purple;
+              background-color:#0e063d ;
+              color: white;
+
+}
 
 .contain-2{
   display: flex;
@@ -61,7 +71,7 @@ nav{
 }
 .midd{
   width: 40%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(26, 100, 122);
 }
 .right{
@@ -73,15 +83,40 @@ nav{
   color: white;
 }
 h2{
-  padding-top: 50px;
+  padding-top: 15%;
   text-align: right;
-  padding-right:48%;
+  padding-right:68%;
+  border-bottom: 2px double white;
+  border-left: 10px solid white;
 }
+
 h1{
   margin-top: 15px;
   text-align: right;
-  padding-right:34.5%;
+  padding-right:54.5%;
 }
 p{
+
+
+  margin-top: 10%;
+  height: 100px;
+  text-align: justify;
+  width: 50%;
+  margin-left: 16%;
+  bo
   
+}
+h4{
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+
+  text-align: justify;
+  width: 50%;
+  margin-left: 16%;
+  border-style: none;
+  color: white;
+}
+.midd img{
+  right: -10%;
 }
