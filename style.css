@@ -4,24 +4,25 @@
   box-sizing: border-box;
 }
 header{
+  align-items: center;
   position: relative;
   width: 100%;
   height: 100vh;
   background-color: gray;
 }
-.contain-1{
-  display: flex;
-  position: absolute;
+a{
+  text-decoration: none;
+}
+
+nav{
+  justify-content: space-between;
+ display: flex;
+ align-items: center;
   height: 10%;
   width: 100vw;
   background-color: greenyellow;
+ position: relative;
 }
-nav{
-  display: r;
+.nav-link{
+  
 }
-.nav-mid ul{
-  display: flex;
-  list-style: none;
-  text-align: center;
-}
-
