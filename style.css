@@ -12,6 +12,21 @@ header{
 }
 a{
   text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: #14e9e9;
+  border-bottom: 1px solid #14e9e9;
+
+}
+.icon{
+  transition: all 0.4s linear;
+}
+.icon:hover{
+  color: purple;important;
+  border-style:none;
+  transform: scale(1.5);
+  
 }
 
 nav{
@@ -20,9 +35,28 @@ nav{
  align-items: center;
   height: 10%;
   width: 100vw;
-  background-color: greenyellow;
+  background-color: rgb(14, 6, 61);
  position: relative;
+ 
 }
-.nav-link{
-  
+.nav-link li{
+  display: inline-flex;
+  list-style: none;
+  margin: 0px 20px;
+}
+.icon,.btn{
+  margin: 5%;
+}
+.contain-2{
+  position: absolute;
+  height: 20%;
+  width: 100vw;
+  background-color: indigo;
+}
+.contain-3{
+  position: absolute; 
+  height: 70%;
+  width: 100vw;
+  background-color: lightcoral;
+
 }
