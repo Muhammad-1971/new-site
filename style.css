@@ -14,7 +14,7 @@ a{
   text-decoration: none;
   color: white;
 }
-a:hover{
+li a:hover{
   color: #14e9e9;
   border-bottom: 1px solid #14e9e9;
 
@@ -53,9 +53,17 @@ button{
   border-radius: 15px;
   box-shadow: 2px 1px 1px rgb(5, 225, 233),
               -2px -1px 1px purple;
-              background-color:#0e063d ;
-              color: white;
-
+ background-color:#0e063d ;
+ color: white;
+ 
+}
+button:hover{
+  transition: all 0.3s linear;
+ transform: scale(1.05);
+ color: cyan;
+}
+button:active{
+  color:purple;
 }
 
 .contain-2{
